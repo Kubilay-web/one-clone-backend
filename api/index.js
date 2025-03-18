@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(compression());
 
 const corsOptions = {
-  origin: "http://localhost:3000", // Allow this origin
+  origin: "https://one-clone-frontend.onrender.com", // Allow this origin
   credentials: true, // Allow credentials like cookies or authorization headers
 };
 
